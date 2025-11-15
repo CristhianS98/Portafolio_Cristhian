@@ -279,13 +279,15 @@
    align-items: center;
    width: 5rem;
    height: 5rem;
-   background: var(--text-color);
+   background: var(--main-color); /* blanco – se ve perfecto */
+   border: .2rem solid var(--text-color); /* borde morado fino */
    border-radius: 50%;
+   transition: .3s ease;
 }
 
 .portfolio-layer a i{
    font-size: 2rem;
-   color: var(--second-bg-color);
+   color: var(--text-color); /* morado visible */
 }
 
 .contact h2{
@@ -560,4 +562,18 @@
 
 .contacto-lista a:hover {
     color: #00bfae;
+}
+/* Aumento de opacidad SOLO en la sección de proyectos */
+.portfolio {
+    background: rgba(128, 0, 255, 0.45); /* menos transparente */
+}
+/* Mejorar visibilidad del texto solo en la capa del portafolio */
+.portfolio-layer h4,
+.portfolio-layer p {
+    color: #2a0033;
+    font-weight: 700;
+}
+
+.portfolio-layer a i {
+    color: #4407ec;
 }
