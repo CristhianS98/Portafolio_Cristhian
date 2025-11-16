@@ -577,3 +577,34 @@
 .portfolio-layer a i {
     color: #4407ec;
 }
+/* --- Estilo exclusivo para los botones Descargar CV (home) y Más sobre mí (about) --- */
+
+/* Botón Descargar CV del Home */
+.home-content .btn {
+    background: rgba(255, 255, 255, 0.88); /* blanco más brillante */
+    color: #4b11c9; /* morado fuerte */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.45);
+    transition: .25s ease;
+}
+
+.home-content .btn:hover {
+    background: rgba(255, 255, 255, 0.96);
+    color: #310a8e;
+    box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.6);
+}
+
+/* Botón "Más sobre mí" de la sección ABOUT */
+.about-content .btn {
+    background: rgba(255, 255, 255, 0.88); /* blanco brillante */
+    color: #4b11c9; /* morado fuerte */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0.8rem rgba(255, 255, 255, 0.45);
+    transition: .25s ease;
+}
+
+.about-content .btn:hover {
+    background: rgba(255, 255, 255, 0.96);
+    color: #310a8e;
+    box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.6);
+}
